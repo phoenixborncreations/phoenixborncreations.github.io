@@ -1,0 +1,15 @@
+/* YOUR CUSTOM STYLES */
+
+body {
+    overflow-x: hidden;
+  }
+
+/* Change color of "What I Do" Icons */
+.icon-area .circle-icon i {
+  background-color: purple;
+}
+
+/* Change color of "What I Do" Icons when hovered*/
+.icon-area .circle-icon i:hover {
+  background-color: purple;
+}
