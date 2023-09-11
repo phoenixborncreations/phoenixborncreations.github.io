@@ -1,5 +1,3 @@
-/* YOUR CUSTOM STYLES */
-
 body {
     overflow-x: hidden;
   }
@@ -12,4 +10,34 @@ body {
 /* Change color of "What I Do" Icons when hovered*/
 .icon-area .circle-icon i:hover {
   background-color: purple;
+}
+/*Change font of header for PBC.*/
+.title { 
+  font-family: 'Great Vibes', cursive;
+}
+
+.navbar {
+  background-color: #7dc7f1;
+}
+
+
+.header-area { 
+  /* background: linear-gradient(0deg, rgba(255,185,78,1) 0%, rgba(166,184,229,1) 38%, rgba(125,199,241,1) 69%, rgba(186,243,255,1) 100%); */
+  background-color: hsl(202, 87%, 83%);
+  margin-top: 40px;
+}
+
+/* button { 
+  background: linear-gradient(0deg, rgba(255,185,78,1) 0%, rgba(166,184,229,1) 38%, rgba(125,199,241,1) 69%, rgba(186,243,255,1) 100%) !important; 
+
+} */
+
+#intro-example {
+  height: 400px;
+}
+
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
 }
